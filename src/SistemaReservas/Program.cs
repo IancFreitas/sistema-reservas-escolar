@@ -1,5 +1,9 @@
+using System.Text;
 using SistemaReservas.Data;
 using SistemaReservas.UI;
+
+// Garante acentuação correta também no console antigo do Windows.
+Console.OutputEncoding = Encoding.UTF8;
 
 try
 {
